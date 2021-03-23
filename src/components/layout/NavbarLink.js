@@ -21,7 +21,6 @@ NavbarLink.propTypes = {
   label: PropTypes.string.isRequired,
   path: PropTypes.string.isRequired,
   selected: PropTypes.bool,
-  mobile: PropTypes.bool,
   onClick: PropTypes.func,
 };
 
