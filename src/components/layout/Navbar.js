@@ -56,7 +56,7 @@ const Navbar = ({ title, links }) => {
                 <h1 className='hidden ml-2.5 text-white font-mono text-2xl md:block'>{title}</h1>
               </div>
               <nav className='z-40 hidden sm:block'>
-                <div className='flex space-x-4'>
+                <div className='flex space-x-2.5'>
                   {links.map(link => (
                     <NavbarLink
                       key={link.path}
@@ -91,7 +91,7 @@ const Navbar = ({ title, links }) => {
           show &&
           (props => (
             <nav style={props} className='bg-gray-800 sm:hidden'>
-              <div className='pb-3 pt-2 px-2 space-y-1'>
+              <div className='px-2.5 py-3 space-y-2.5'>
                 {links.map(link => (
                   <NavbarLink
                     key={link.path}
