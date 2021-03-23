@@ -4,4 +4,8 @@
  * See: https://www.gatsbyjs.com/docs/browser-apis/
  */
 
-// You can delete this file if you're not using it
+import './src/styles/global.css';
+import { _wrapRootElement, _wrapPageElement } from './src/wrappers';
+
+export const wrapRootElement = _wrapRootElement;
+export const wrapPageElement = _wrapPageElement;
