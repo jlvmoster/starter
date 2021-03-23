@@ -4,6 +4,10 @@ module.exports = {
     description: `Custom Gatsby boilerplate for new personal projects`,
     author: `@jlvmoster`,
     siteUrl: `https://starter.moster.io`,
+    links: [
+      { label: `Home`, path: `/` },
+      { label: `Example`, path: `/example` },
+    ],
   },
   plugins: [
     `gatsby-plugin-sitemap`,
